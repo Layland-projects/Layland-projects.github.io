@@ -19,6 +19,9 @@ body{
 #mainDescription {
     color: #24282c;
 }
+#interestsHeader{
+    padding-top: 1%;
+}
 .leftPad{
     padding-left: 15px;
 }
@@ -77,8 +80,11 @@ div.jumbotron {
     font-weight: 500;
     display: inline;
 }
-ul.educationList {
+ul.educationList, ul.interestList {
     list-style-type: none;
+}
+ul.interestList li, ul.educationList li{
+    padding-top: 2%;
 }
 .educationTimePeriod {
     padding-left: 10px;
