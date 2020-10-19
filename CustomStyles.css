@@ -22,6 +22,10 @@ body{
 #interestsHeader{
     padding-top: 1%;
 }
+.cardNoPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .leftPad{
     padding-left: 15px;
 }
