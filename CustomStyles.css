@@ -2,7 +2,7 @@
     text-decoration: underline;
 }
 hr.rounded {
-    border-top: 5px solid white;
+    border-top: 5px solid #24282c;
     border-radius: 5px;
 }
 body{
@@ -11,10 +11,35 @@ body{
 #mainContainer{
     padding-top: 1%;
 }
-#mainTitle{
-    color:white;
+#mainTitle {
+    color: #24282c;
     font-family: Rockwell;
     text-align: center;
+}
+#mainDescription {
+    color: #24282c;
+}
+.leftPad{
+    padding-left: 15px;
+}
+div.jumbotron {
+    background-color: #673883;
+    border-color: #673883;
+    border: 1px solid #24282c;
+}
+.navbar-dark, .card {
+    background-color: #673883;
+    color: #24282c;
+    border: 1px solid #24282c;
+}
+.navbar-dark .navbar-nav .nav-link, .card {
+    color: #24282c;
+}
+.dropdown-menu {
+    background-color: #673883;
+}
+.dropdown-item:hover {
+    background-color: #884bac;
 }
 .collapseCards {
     padding-top: 1%;
@@ -28,7 +53,7 @@ body{
 .timePeriod {
     padding-left: 10px;
     font-size: 12px;
-    color: dimgrey;
+    color: #7d858d;
     font-weight: 600;
     vertical-align: bottom;
     display: inline;
@@ -39,7 +64,7 @@ body{
 .jobList {
     font-size: 16px;
     font-weight: 600;
-    color: gray;
+    color: #7d858d;
 }
 .jobTitle {
     font-size: 16px;
@@ -58,7 +83,7 @@ ul.educationList {
 .educationTimePeriod {
     padding-left: 10px;
     font-size: 12px;
-    color: dimgrey;
+    color: #7d858d;
     font-weight: 600;
     vertical-align: bottom;
 }
@@ -68,13 +93,7 @@ ul.educationList {
     font-style: italic;
     font-weight: 500;
 }
-.mainDescription{
-    color: white;
-}
-div.jumbotron {
-    background-color: #673883;
-    border-color: #673883;
-}
+
 body
 {
 }
