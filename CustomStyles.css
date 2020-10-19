@@ -1,11 +1,79 @@
-﻿.mainTitle{
+﻿h5{
+    text-decoration: underline;
+}
+hr.rounded {
+    border-top: 5px solid white;
+    border-radius: 5px;
+}
+body{
+    background-color: dimgray;
+}
+#mainContainer{
+    padding-top: 1%;
+}
+#mainTitle{
+    color:white;
     font-family: Rockwell;
+    text-align: center;
+}
+.collapseCards {
+    padding-top: 1%;
+}
+.companyName {
+    font-size: 25px;
+    font-family: Consolas;
+    font-weight: bold;
+    display: inline;
+}
+.timePeriod {
+    padding-left: 10px;
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: 600;
+    vertical-align: bottom;
+    display: inline;
+}
+.jobBody {
+    font-size: 18px;
+}
+.jobList {
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+.jobTitle {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    display: inline;
+}
+.jobLanguages {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+}
+ul.educationList {
+    list-style-type: none;
+}
+.educationTimePeriod {
+    padding-left: 10px;
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: 600;
+    vertical-align: bottom;
+}
+.educationTitle {
+    padding-left: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
 }
 .mainDescription{
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    vertical-align: middle;
+    color: white;
+}
+div.jumbotron {
+    background-color: #673883;
+    border-color: #673883;
 }
 body
 {
